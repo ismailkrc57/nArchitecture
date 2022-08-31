@@ -6,31 +6,75 @@
     <projectFile profileName="WebAPI">src/demoProjects/templateProject/WebAPI/WebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aeb483e-ed9f-4d3c-ad48-43ece9862f17" name="Changes" comment="" />
+    <list default="true" id="4aeb483e-ed9f-4d3c-ad48-43ece9862f17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Commands/CreateBrand/CreateBrandCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Dtos/BrandGetByIdDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Dtos/BrandListDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Models/BrandListModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Queries/GetByIdBrand/GetByIdBrandQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Queries/GetListBrand/GetListBrandQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Queries/QueryHandlers/GetByIdBrandQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Queries/QueryHandlers/GetListBrandQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.nArchitecture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nArchitecture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/Core.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/Core.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/Core.CrossCuttingConcerns.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/Core.CrossCuttingConcerns.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Mailing/Core.Mailing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Mailing/Core.Mailing.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Persistence/Core.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Persistence/Core.Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Security/Core.Security.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Security/Core.Security.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/ApplicationServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/ApplicationServiceRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Profiles/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Profiles/MappingProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Rules/BrandBusinessRules.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Brands/Rules/BrandBusinessRules.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Controllers/BrandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Controllers/BrandsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/WebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/WebAPI.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/16e25228933e538de5a14ae5e3d114183c20ccac95fcf8478e3c6dcf6e4a2/IRequestHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f112545128be59665c88d3c3fc7ee7f793a43119d392477ab966741a78b5/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3444aea72fd552a5be14e6c6d1bb43569412a5547ca7f0b93136753e44471e5c/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/428c694e9eae77ed9c58a726651c5e524b5f1604a134a4a96f28ceefc53d1a/RequestExceptionProcessorBehavior.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/64277dff601943485f1ce8e1d4b72d961f81f957ac2be4877a778a938ba582c/AbstractValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/686ecdf55b0afec278130ed1d8e7aaac77b377dfa7a6a67da3ce328916e4b8c/DynamicServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/767db1e17d404f86c3c73c54c6b20b5ff9ec43b79ef47681ae34b40a6852cf9/Where.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b05314ed92a8cc3623ddeabcc77a9722e54e4da328fb4810e414bee23a2a7dc1/RequestHandlerWrapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c765e47ec58cf89220cd5779fc5cce70b01abab88edf4ed2b5deaba1244c610/IValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e0bea4e5f03899efe75dc4dcf582f230702687c5ac6269866345ce4aae5d8a36/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DjAAdQbkXLFDGZGS3tiBarDzp3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebAPI (1)">
     <configuration name="WebAPI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -111,6 +155,7 @@
       <updated>1661201978481</updated>
       <workItem from="1661201985311" duration="433000" />
       <workItem from="1661967623030" duration="2085000" />
+      <workItem from="1661969758616" duration="8789000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1661969307574</created>
@@ -142,5 +187,24 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="second commit" />
     <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/corePackages/Core.Application/Pipelines/Validation/RequestValidationBehavior.cs</url>
+          <line>20</line>
+          <properties documentPath="C:\Users\ismai\OneDrive\Masaüstü\dotnetCoreHighLevel\src\corePackages\Core.Application\Pipelines\Validation\RequestValidationBehavior.cs" initialLine="20" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="700" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1051" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
