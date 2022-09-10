@@ -15,12 +15,13 @@ namespace Persistence
     public static class PersistenceServiceRegistration
     {
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services,
-                                                                IConfiguration configuration)
+            IConfiguration configuration)
         {
             services.AddDbContext<BaseDbContext>(options =>
-                                                     options.UseSqlServer(
-                                                         configuration.GetConnectionString("RenACarCampConnectionString")));
+                options.UseSqlServer(
+                    configuration.GetConnectionString("RenACarCampConnectionString")));
             services.AddScoped<IBrandRepository, BrandRepository>();
+            services.AddScoped<IModelRepository, ModelRepository>();
 
             return services;
         }
