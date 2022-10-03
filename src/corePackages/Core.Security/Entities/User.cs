@@ -32,6 +32,6 @@ public class User : Entity
         PasswordSalt = passwordSalt;
         PasswordHash = passwordHash;
         Status = status;
-        AuthenticatorType = authenticatorType;
+         AuthenticatorType = authenticatorType;
     }
 }

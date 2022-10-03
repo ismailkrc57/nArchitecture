@@ -7,44 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aeb483e-ed9f-4d3c-ad48-43ece9862f17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Models/Dtos/ModelListDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Models/Models/ModelListModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Models/Profiles/MappingProfiles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Models/Queries/DynamicQueryHandlers/GetListModelByDynamicQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Models/Queries/GetListModel/GetListModelQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Models/Queries/GetListModelDynamic/GetListModelByDynamicQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Models/Queries/QueryHandlers/GetListModelQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Services/Repositories/IModelRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Domain/Entities/Model.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Repositories/ModelRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Controllers/ModelsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.nArchitecture/.idea/.name" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Auth/Commands/Register/RegisterCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Auth/Dtos/RefreshTokenDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Auth/Dtos/RegisteredDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Features/Auth/Rules/AuthRules.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Services/AuthServices/AuthManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Services/AuthServices/IAuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Services/Repositories/IOperationClaimRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Services/Repositories/IRefreshTokenRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Services/Repositories/IUserOperationClaimRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Services/Repositories/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Repositories/OperationClaimRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Repositories/RefreshTokenRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Repositories/UserOperationClaimRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Repositories/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.nArchitecture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nArchitecture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nArchitecture.sln" beforeDir="false" afterPath="$PROJECT_DIR$/nArchitecture.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Domain/Entities/Brand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Domain/Entities/Brand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Security/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Security/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/ApplicationServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Application/ApplicationServiceRegistration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Contexts/BaseDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Contexts/BaseDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Migrations/BaseDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Migrations/BaseDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/PersistenceServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/PersistenceServiceRegistration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Contexts/BaseDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistences/Contexts/BaseDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Migrations/20220814174528_Init.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistences/Migrations/20220814174528_Init.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Migrations/20220814174528_Init.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistences/Migrations/20220814174528_Init.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Migrations/BaseDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistences/Migrations/BaseDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistences/Persistences.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/PersistenceServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistences/PersistenceServiceRegistration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistence/Repositories/SomeFeatureEntityRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/Persistences/Repositories/SomeFeatureEntityRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/Controllers/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPIs/Controllers/BaseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/Controllers/SomeFeatureEntitiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPIs/Controllers/SomeFeatureEntitiesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPIs/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPIs/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPIs/WebAPIs.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPIs/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/templateProject/WebAPIs/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Repositories/ModelRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/Persistence/Repositories/ModelRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Controllers/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Controllers/BaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/WebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/demoProjects/rentACar/WebAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1713445880e45d74ebfd64ce1ea317361f318e7fb78be2f712a1a5d018d2b3/TokenOptions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -149,7 +145,8 @@
       <workItem from="1661967623030" duration="2085000" />
       <workItem from="1661969758616" duration="8789000" />
       <workItem from="1662576293976" duration="7460000" />
-      <workItem from="1662812668277" duration="500000" />
+      <workItem from="1662812668277" duration="812000" />
+      <workItem from="1664823494091" duration="7025000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1661969307574</created>
@@ -158,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661969307574</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="model operatins added for Brand">
+      <created>1662813189663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662813189664</updated>
+    </task>
+    <task id="LOCAL-00003" summary="model added for brand">
+      <created>1662813223290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662813223290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +191,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="model operatins added for Brand" />
+    <MESSAGE value="model added for brand" />
+    <option name="LAST_COMMIT_MESSAGE" value="model added for brand" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
